@@ -22,7 +22,7 @@ output_path = os.path.dirname(os.path.abspath(__file__))
 # You can also use a simple Dict to define the dataset and pass it to your custom formatter.
 output_path = os.path.dirname("/content/drive/MyDrive/tts/output")
 dataset_config = BaseDatasetConfig(
-    formatter="ljspeech", meta_file_train="metadata.csv", path="/content/drive/MyDrive/tts/save")
+    formatter="ljspeech", meta_file_train="metadata.csv", path="/content/drive/MyDrive/tts/save"
 )
 
 # INITIALIZE THE TRAINING CONFIGURATION
